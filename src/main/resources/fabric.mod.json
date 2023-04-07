@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "chromiumframe",
+  "version": "${version}",
+  "name": "ChromiumFrame",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/ender_schesi/ChromiumFrame"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/chromiumframe/icon.png",
+  "environment": "client",
+  "mixins": [
+    "chromiumframe.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.19.3"
+  }
+}
